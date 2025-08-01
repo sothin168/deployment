@@ -7,18 +7,16 @@
   <link href="style.css" rel="stylesheet"/>
   <style>
     body {
-      background: #f6f8fa;
-      margin: 0;
-      padding: 0;
-    }
+      font-family: Arial, sans-serif;
+      background: #daecff;
     .container {
-      max-width: 600px;
+      max-width: 950px;
       margin: 40px auto;
       background: #fff;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       padding: 32px;
-      text-align: center;
+      text-align: start;
     }
     .avatar {
       width: 120px;
@@ -32,7 +30,7 @@
       margin: 0 0 12px 0;
     }
     .bio {
-      color: #586069;
+      color: #444444;
       margin-bottom: 24px;
     }
     .links a {
@@ -44,38 +42,69 @@
     .links a:hover {
       text-decoration: underline;
     }
+    .text-title{
+        color: rgb(255, 102, 0);
+        text-decoration: underline;
+    }
+    .main{
+        border-color:  rgb(255, 102, 0) !important;
+        border-width:  2px !important;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="https://avatars.githubusercontent.com/u/128342368?v=4" alt="Profile Avatar" class="avatar">
-    <h1>Kudasai</h1>
-    <div class="bio">
-      My name SOTHIN, Male and 26 year old, I'm a Web developer. I have 2 year+ experienced with <br/>
-      <strong>Programming Language</strong><br/>
-        - PHP <br/>
-        - JavaScript<br/>
-        - HTML<br/>
-        - CSS<br/>.
-
-      <strong>Framework:</strong><br/>
-        - Laravel<br/>
-        - ReactJs<br/>
-        - Python<br/>
-        - Bootstrap<br/>
-
-      <strong> DBMS:</strong><br/>
-        - Mysql <br/>
-        - PostgreSQL(less exp)<br/>.
-
-      <strong> Others:</strong><br/>
-        - Ubuntu<br/>
-        - CentOS<br/>
-        - Docker<br/>
+    <div class="border align-items-center d-flex justify-content-start pt-3 pb-0 ps-3 main">
+        <img src="https://avatars.githubusercontent.com/u/128342368?v=4" alt="Profile Avatar" class="border avatar">
     </div>
+    <h1 class="text-title">Kudasai</h1>
+    <div class="bio">
+        My name is <b>SOTHIN</b>, a 26-year-old Web Developer with over two years of experience in building and maintaining web applications. I specialize in full-stack development and have a strong passion for creating efficient, scalable, and user-friendly web solutions.<br/>
+        </br/>
+        I began my professional journey as an Admin & Supervisor at K.Y Service in 2023. Following that, I interned as a Web Developer at Telecom Bee Union (Cambodia) Telecom Co., Ltd. in July 2023. Due to my performance and dedication, I was offered a full-time position as a Web Developer at the same company in January 2024, where I continue to work today.
+    </div>
+    <div class="row ">
+        <div class="col-sm-12 ">
+            <h5 class="text-title">Experienced</h4>
+            <ul>
+                <li>Work As Admin & Supervisor as K.Y Service (2Months) 2023</li>
+                <li>Intern Web Developer At <b>Telecom Bee Union (Cambodia) Telecom Co., Ltd.</b>(July - 2023)</li>
+                <li>Full time staff as Web Developer At <b>Telecom Bee Union (Cambodia) Telecom Co., Ltd.</b>(Since Jan - 2024)</li>
+            </ul>
+        </div>
+        <div class="col-sm-12 ">
+            <h5 class="text-title">Programming Languages:</h4>
+            <ul>
+                <li>HTML,CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Python</li>
+            </ul>
+        </div>
+        <div class="col-sm-12 ">
+            <h5 class="text-title">Programming Languages Framework:</h4>
+            <ul>
+                <li>Laravel</li>
+                <li>ReactJs</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+        <div class="col-sm-12 ">
+            <h5 class="text-title">Others:</h4>
+            <ul>
+                <li>Ubuntu</li>
+                <li>CentOS</li>
+                <li>Docker</li>
+            </ul>
+        </div>
+    </div>
+    <h5 class="text-title">Find Me Via:</h4>
     <div class="links">
-      <strong>Find ME</strong> <br/>
       <a href="https://github.com/sothin168" target="_blank">GitHub</a>
+      <a href="https://www.facebook.com/donotjugdeabookbyitscover/" target="_blank">Facebook</a>
+      <a href="mailto:mrsothin1090@gmail.com?subject=Hello&body=I%20want%20to%20contact%20you" target="_blank">Email</a>
+      <a href="https://t.me/sothinsok" target="_blank">Telegram</a>
+      <a href="tel:+855 93 398 295" target="_blank">Phone</a>
     </div>
   </div>
 </body>
